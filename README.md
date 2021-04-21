@@ -47,3 +47,10 @@ JavaScript file
 **Google Gmail api : https://developers.google.com/gmail/api/quickstart/php**
 
 **Google Drive api : https://developers.google.com/drive/api/v3/quickstart/php**
+
+
+**This webpage is published in :**
+
+**1. Landing Page :  https://yipmeme.wixsite.com/my-site-2**
+
+**2. Our tool site : https://thecompass.infinityfreeapp.com/ **
