@@ -21,8 +21,8 @@ Special fucntion php
 
 
 JSON 
-1. credentials_gamil.json -- It is the json file generated from google-gmail api ( Search in the google )
-2. credentials.json       -- It is the json file generated from google-drive api ( Search in the google )
+1. credentials_gamil.json -- It is the json file generated from google-gmail api ( link in below )
+2. credentials.json       -- It is the json file generated from google-drive api ( link in below )
 
 File 
 1. vendor -- it is the composer file including all Google api script
@@ -42,3 +42,6 @@ JavaScript file
 7. sha256.js / sha256.min.js -- it includes all the encryption method js
 8. story_telling.js -- it includes the story-telling pdf generate
 
+**Please noted that :
+Google Gmail api : https://developers.google.com/gmail/api/quickstart/php
+Google Drive api : https://developers.google.com/drive/api/v3/quickstart/php
