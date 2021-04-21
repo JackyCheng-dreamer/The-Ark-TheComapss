@@ -53,4 +53,4 @@ JavaScript file
 
 **1. Landing Page :  https://yipmeme.wixsite.com/my-site-2**
 
-**2. Our tool site : https://thecompass.infinityfreeapp.com/ **
+**2. Our tool site : https://thecompass.infinityfreeapp.com/**
