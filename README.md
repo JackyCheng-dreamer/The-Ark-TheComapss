@@ -35,13 +35,15 @@ JavaScript file
 1. check.js -- validation of the index.php
 2. clien_pdf.js -- generate the ultimate report for the client
 3. convert_pdf.js -- generate the Client registration form report to the drive
-4. keyword_char.js -- it includes all the keywords and follow up questions ( as json format ) , so if you have any additional keywords/ follow-up questions, can put all in this js file
-5. keyword_identify.js -- it includes all the logic in the keyword identification page keyword.php , & generate new pop-up cards
+4. **keyword_char.js** -- it includes all the keywords and follow up questions ( as json format ) , so if you have any additional keywords/ follow-up questions, can put all in this js file
+5. **keyword_identify.js** -- it includes all the logic in the keyword identification page keyword.php , & generate new pop-up cards
 5. process.js -- it includes all the logic in the basic.php ( and handle data flow and trigger upload google drive / SWAL )
 6. result.js -- it includes all the logic in the result.php
 7. sha256.js / sha256.min.js -- it includes all the encryption method js
 8. story_telling.js -- it includes the story-telling pdf generate
 
-**Please noted that :
-Google Gmail api : https://developers.google.com/gmail/api/quickstart/php
-Google Drive api : https://developers.google.com/drive/api/v3/quickstart/php**
+**Please noted that :**
+
+**Google Gmail api : https://developers.google.com/gmail/api/quickstart/php**
+
+**Google Drive api : https://developers.google.com/drive/api/v3/quickstart/php**
