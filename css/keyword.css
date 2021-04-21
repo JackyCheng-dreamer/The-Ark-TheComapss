@@ -1,0 +1,127 @@
+.wrapper_a {
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    border-radius: calc(0.25px * var(--rem));
+    box-shadow: 0 1px 8px #007bff;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    pointer-events: auto;
+}
+
+.container_b {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 50px;
+    height: 500px !important;
+    overflow-y: auto;
+}
+
+.wrapper_f {
+    height: calc(3px * var(--rem));
+}
+
+.card {
+    border-radius: calc(0.25px * var(--rem));
+    box-shadow: 0 1px 8px #007bff;
+    padding: calc(1px * var(--rem)) calc(0.5px * var(--rem)) calc(0.75px * var(--rem)) calc(1px * var(--rem));
+    position: relative;
+}
+
+.pop_up {
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    --rem: 14;
+    font-size: 14px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, Arial;
+    font-feature-settings: 'ss01';
+    font-weight: normal;
+    pointer-events: auto;
+    box-sizing: border-box;
+}
+
+.keyword_up {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 1.5rem;
+}
+
+.keyword {
+    margin-bottom: 50px;
+}
+
+.textwrapper {
+    border: 1px solid #999999;
+    margin: 5px 0;
+    padding: 3px;
+    height: 450px !important;
+    width: 100%;
+    overflow-y: auto;
+    box-shadow: 0 1px 8p lightcoral;
+    display: flex;
+}
+
+textarea {
+    resize: none !important;
+    width: 100% !important;
+    padding: 1.5rem;
+    color: black !important;
+}
+
+.keyword_script_lower {
+    background-color: transparent;
+    color: black;
+}
+
+#keyword_show {
+    background-color: rgb(141, 193, 173);
+    border: 2px solid rgb(175, 224, 203);
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 25px;
+    color: white;
+}
+
+.form-control {
+    width: 100% !important;
+    margin-bottom: 0px !important;
+}
+
+label {
+    margin-bottom: 3px;
+}
+
+textarea {
+    width: 100%;
+    height: 440px;
+    padding: 10px;
+    display: block;
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    border: 2px solid #74637f;
+    border-radius: 0;
+    overflow: auto;
+    resize: none;
+    transition: transform 1s;
+}
+
+.perspective .backdrop {
+    transform: perspective(1500px) translateX(-125px) rotateY(45deg) scale(.9);
+}
+
+.perspective textarea {
+    transform: perspective(1500px) translateX(155px) rotateY(45deg) scale(1.1);
+}
+
+textarea:focus,
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #c6aada;
+}
